@@ -23,9 +23,8 @@ En la carpeta RAW, donde se encuentran los datos crudos fastq, id investigad eso
 ```bash
 # Recordad activar el env de conda si no está activado.
 conda activate ngs_course
-# Copiamos la práctica de hoy a nuestro directorio de trabajo.
+# Nos movemos a nuestro directorio de trabajo.
 cd /home/alumno/introduction_to_bioinformatics_handson
-cp -r /mnt/ngs_course_shared/introduction_to_bioinformatics_handson/04_handson_variantcalling/ .
 # Entramos dentro de la carpeta de la práctica
 cd 04_handson_variantcalling
 # Comprobamos que estamos localizados en el directorio con los datos para esta práctica: /home/usuario/cursoNGS/dia4/handson_dia4
@@ -235,7 +234,7 @@ NOTA: Si estás ejecutando este curso desde una máquina distinta a la máquina 
 # Anotamos las variantes que hemos obtenido
 conda deactivate
 conda activate ngs_course
-vep -i RESULTS/variants/var.raw.vcf --format vcf --output_file RESULTS/variants/var.raw.vcf_effect.txt --everything  -cache  -dir /mnt/ngs_course_shared/introduction_to_bioinformatics_handson/vep --offline --fasta REFERENCE/20140318_L11910.1_RB.fasta --force --use_given_ref
+vep -i RESULTS/variants/var.raw.vcf --format vcf --output_file RESULTS/variants/var.raw.vcf_effect.txt --everything  -cache  -dir ~/introduction_to_bioinformatics_handson/vep --offline --fasta REFERENCE/20140318_L11910.1_RB.fasta --force --use_given_ref
 ```
 
 A este programa le pasamos:
