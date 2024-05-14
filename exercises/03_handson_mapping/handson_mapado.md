@@ -2,7 +2,7 @@
 
 BU-ISCIII
 
-### Práctica 2 día 6: Mapado y control de calidad
+### Práctica 7 día 3: Mapado y control de calidad
 
 #### Descripción
 
