@@ -188,7 +188,7 @@ Vamos a abrir IGV para ir visualizando los campos del vcf a la vez que comprobam
 igv
 ```
 
-En el desplegable del genoma de referencia hay que seleccionar la referencia del gen RB1. Si en la práctica del día 3 lo cargasteis debería aparecer ya en el desplegable. Si no lo llegasteis a hacer hay que ir a Genomes > Load Genome from file... e ir a la carpeta /home/alumno/cursoNGS/dia4/handson_dia4/REFERENCE y seleccionar el fichero 20140318_L11910.1_RB.fasta.
+En el desplegable del genoma de referencia hay que seleccionar la referencia del gen RB1. Si en la práctica del día 3 lo cargasteis debería aparecer ya en el desplegable. Si no lo llegasteis a hacer hay que ir a Genomes > Load Genome from file... e ir a la carpeta /home/alumno/introduction_to_bioinformatics_handson/04_handson_variantcalling/REFERENCE y seleccionar el fichero 20140318_L11910.1_RB.fasta.
 
 Una vez tenemos el genoma de referencia cargamos el fichero bam, recordad en File > Load From File… y seleccionamos en /home/alumno/introduction_to_bioinformatics_handson/04_handson_variant_calling/RESULTS/Alignment/ el fichero AJA18_sorted.bam.
 
