@@ -32,9 +32,6 @@ pwd
 
 # Entramos en la carpeta de trabajo
 cd introduction_to_bioinformatics_handson
-
-# Copiamos la práctica de hoy
-cp -r /mnt/ngs_course_shared/introduction_to_bioinformatics_handson/02_handson_preprocessing .
 ```
 
 Listamos el contenido de este directorio y vamos a ver una serie de carpetas con distintos ejemplos de ficheros crudos obtenidos de experimentos de secuenciación masiva. Concretamente encontramos tres directorios con datos de HiSeq, MiSeq y 454.
