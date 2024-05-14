@@ -22,10 +22,6 @@ ls
 # Comprobamos que tenemos cargado el environment de conda y si no lo cargamos
 conda activate ngs_course
 
-# Copiamos la última práctica de hoy
-cp -r /mnt/ngs_course_shared/introduction_to_bioinformatics_handson/03_handson_mapping/ .
-ls
-
 # Nos movemos a la carpeta de las prácticas
 cd 03_handson_mapping/
 pwd
