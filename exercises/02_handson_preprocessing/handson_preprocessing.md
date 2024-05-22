@@ -60,7 +60,10 @@ ls RESULTS/QC/RAW/
 #También podemos abrir la carpeta en el explorador de archivos y ver que también está vacía
 
 # Realizamos el análisis de calidad con fastqc
-fastqc -t 4 RAW/CFSAN002083-01_S1_L001_R1_001_fixed.fastq RAW/CFSAN002083-01_S1_L001_R2_001_fixed.fastq -o RESULTS/QC/RAW
+fastqc -t 4 \
+RAW/CFSAN002083-01_S1_L001_R1_001_fixed.fastq \
+RAW/CFSAN002083-01_S1_L001_R2_001_fixed.fastq \
+-o RESULTS/QC/RAW
 ```
 
 Aquí estamos ejecutando el programa y diciéndole los ficheros que tiene que analizar y con el parámetro “-o” el directorio donde queremos que se guarden los resultados. El parámetro “-t” indica cuántos núcleos del procesador puede utilizar.
