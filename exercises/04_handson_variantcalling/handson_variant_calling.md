@@ -234,7 +234,7 @@ NOTA: Si estás ejecutando este curso desde una máquina distinta a la máquina 
 # Anotamos las variantes que hemos obtenido
 conda deactivate
 conda activate ngs_course
-vep -i RESULTS/variants/var.raw.vcf --format vcf --output_file RESULTS/variants/var.raw.vcf_effect.txt --everything  -cache  -dir ~/introduction_to_bioinformatics_handson/vep --offline --fasta REFERENCE/20140318_L11910.1_RB.fasta --force --use_given_ref
+vep -i RESULTS/variants/var.raw.vcf --format vcf --output_file RESULTS/variants/var.raw.vcf_effect.txt --everything  -cache  -dir /mnt/ngs_course_shared/introduction_to_bioinformatics_handson/vep --offline --fasta REFERENCE/20140318_L11910.1_RB.fasta --force --use_given_ref
 ```
 
 A este programa le pasamos:
