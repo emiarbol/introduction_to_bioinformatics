@@ -299,7 +299,7 @@ Para visualizar el mapeo que realizamos en el paso anterior y ver que todo funci
 
 **¿Obtenéis algún error? ¿Qué falta?**
 
-Si recordáis cuando generamos el primer bam lo ordenamos y generamos su índice que es un fichero en .bai que permite acelerar la computación sobre este tipo de ficheros. Pero cuando quitamos los duplicados no lo volvimos a generar para este fichero. Hagámoslo ahora. Id desde el apartado gráfico (o por terminal si os veis capaces) y buscad donde tenemos guardado este fichero bam en `/home/alumno/introduction_to_bioinformatics_handson/03_handson_mapping/RESULTS/Alignment/` . Abrimos una terminal en esa ubicación y hacemos como antes.
+Si recordáis cuando generamos el primer bam lo ordenamos y generamos su índice que es un fichero en .bai que permite acelerar la computación sobre este tipo de ficheros. Pero cuando quitamos los duplicados no lo volvimos a generar para este fichero. Hagámoslo ahora. Id desde el apartado gráfico (o por terminal si os veis capaces) y buscad donde tenemos guardado este fichero bam en `/mnt/ngs_course_shared/introduction_to_bioinformatics_handson/03_handson_mapping/RESULTS/Alignment/` . Abrimos una terminal en esa ubicación y hacemos como antes.
 
 ```bash
 # Muevete hasta la carpeta donde está el archivo bam si te has movido a otro directorio
